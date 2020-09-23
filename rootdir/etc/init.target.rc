@@ -11,6 +11,9 @@ on init
     setprop persist.dbg.vt_avail_ovr 1
     setprop persist.dbg.wfc_avail_ovr 1
 
+    # BPF
+    setprop ro.kernel.ebpf.supported true
+
 on post-fs-data
     # Services
     setprop init.svc.console stopped
