@@ -1,0 +1,2 @@
+# mtk usb hal
+type sysfs_dual_role_usb20, fs_type, sysfs_type;
