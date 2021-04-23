@@ -1,0 +1,4 @@
+# HALs
+/vendor/lib(64)?/hw/gralloc\.default\.so     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/gralloc\.mt6765\.so      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/vulkan\.mt6765\.so       u:object_r:same_process_hal_file:s0
